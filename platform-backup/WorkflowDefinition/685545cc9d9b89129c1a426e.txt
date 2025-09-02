@@ -1,0 +1,86 @@
+{
+	"appsUsed":[],
+	"createdTime":1750418892147,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		{
+			"fromNodeId":"n_GB4Tz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_qKLZx",
+			"type":"next"
+		}
+	],
+	"id":"685545cc9d9b89129c1a426e",
+	"lastModifiedBy":34,
+	"lcName":"callable schedule one time validation- 11750416513356",
+	"modifiedTime":1750513801086,
+	"name":"callable schedule one time validation- 11750416513356",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":627,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8whjH-1",
+			"id":"n_GB4Tz",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"New event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":670,
+				"resourceName":"callables_schedule_a_callable",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_8whjH-1",
+			"id":"n_qKLZx",
+			"index":0,
+			"inputs":{
+				"automation_id":"68554596fdd86d0014cb9f64",
+				"start_time":"2025-06-20T11:28:34.985Z",
+				"schedule_type":"ONE_TIME",
+				"cancel_existing":true,
+				"version":"-1",
+				"schedule_name":"Schedule name - 11750416513356",
+				"parameters":{
+					"Input_String":"Input -11750416513356"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Schedule callable",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":2
+}
