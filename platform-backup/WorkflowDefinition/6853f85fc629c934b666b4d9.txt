@@ -1,0 +1,44 @@
+{
+	"appsUsed":["shopify"],
+	"createdTime":1750333535740,
+	"deleted":true,
+	"description":"description",
+	"edges":[
+		
+	],
+	"id":"6853f85fc629c934b666b4d9",
+	"lastModifiedBy":34,
+	"lcName":"automation_edi tools by unifyappsdelete11750333148516",
+	"modifiedTime":1750514443807,
+	"name":"Automation_EDI Tools by UnifyAppsDelete11750333148516",
+	"nodes":[
+		{
+			"context":{
+				"appName":"shopify"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_oNt6Q-1",
+			"id":"n_Q2DDf",
+			"index":0,
+			"skip":false,
+			"subTitle":"Shopify",
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"schemaReferences":[],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[],
+	"version":3
+}
